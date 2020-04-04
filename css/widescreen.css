@@ -1,0 +1,18 @@
+/* what we do  */
+
+#what .container .items .item {
+  display: flex;
+  text-align: left;
+}
+#what .container .items i {
+  margin: 0.5rem;
+  align-self: center;
+}
+/* conract/map */
+#contact .contact_form {
+  flex: 1;
+}
+
+#contact .map {
+  flex: 2;
+}

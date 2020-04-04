@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EdgeLedger</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:1100px)"
+      href="css/widescreen.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="css/mobile.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a954a300f3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body id="home">
+    <!-- navbar -->
+    <nav id="navbar">
+      <h1 class="logo">
+        <span class="tp"> <i class="fas fa-book-open"></i> Edge </span>Ledger
+      </h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#what">What</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- showcase -->
+
+    <div id="showcase">
+      <div class="showcase_content">
+        <h1>The Sky Is The Limit</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa
+          dignissimos modi rerum hic officia.
+        </p>
+        <a href="" class="btn">Read More</a>
+      </div>
+    </div>
+
+    <!-- what to do -->
+    <section id="what" class="bg_light py_1">
+      <div class="container">
+        <h2 class="text_center m_heading">
+          <span class="tp">What</span> We DO
+        </h2>
+        <div class="items">
+          <div class="item">
+            <i class="fas fa-university fa-2x"></i>
+            <div>
+              <h3>Investment Bancking</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
+                magnam.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-book-reader fa-2x"></i>
+            <div>
+              <h3>Portfolio Managment</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
+                magnam.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-pencil-alt fa-2x"></i>
+            <div>
+              <h3>Tax & Custodial</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
+                magnam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- who we are -->
+
+    <section id="who">
+      <div class="who_img"></div>
+      <div class="who_text">
+        <h2 class="m_heading"><span class="tp">Who</span> We Are</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          mollitia iste, deleniti illum illo molestiae.
+        </p>
+        <ul class="list">
+          <h3>Our Team</h3>
+          <li>Mark Smith: CEO</li>
+          <li>Shammon Jonson: CFO</li>
+          <li>John Corbit: Lead Accountant</li>
+          <li>Janet Williams: Investment Manager</li>
+          <li>Kara Jackson: Senior Accountant</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- clients -->
+
+    <section id="clients" class="py_1">
+      <div class="container">
+        <h2 class="m_heading text_center">
+          <span class="tp">
+            Our
+          </span>
+          Clients
+        </h2>
+        <div class="items">
+          <div><img src="./img/logos/logo1.png" alt="" /></div>
+          <div><img src="./img/logos/logo2.png" alt="" /></div>
+          <div><img src="./img/logos/logo3.png" alt="" /></div>
+          <div><img src="./img/logos/logo4.png" alt="" /></div>
+          <div><img src="./img/logos/logo5.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact/ map -->
+
+    <section id="contact">
+      <div class="contact_form bg_p py_2">
+        <h2 class="m_heading">Contact Us</h2>
+        <p>Please Us The Form Below To Contact Us</p>
+
+        <form>
+          <div class="form_group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div class="form_group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+            />
+          </div>
+          <div class="form_group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Enter Your Phone Number"
+            />
+          </div>
+          <div class="form_group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter Your Message"
+            ></textarea>
+            <input type="submit" value="Send" class="btn btn_dark" />
+          </div>
+        </form>
+      </div>
+      <div class="map"></div>
+    </section>
+
+    <!-- footer -->
+
+    <footer id="footer">
+      <p>
+        <span class="tp">Edge</span>Ledger Copyright &copy; 2020, All Rights
+        Reserved.
+      </p>
+    </footer>
+
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Local JS File -->
+    <script src="js/main.js"></script>
+
+    <!-- Google Maps -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8aDvt56LHQAN27_-qWJfrWUohOO6hV1A&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>
+
+<!-- AIzaSyB8aDvt56LHQAN27_-qWJfrWUohOO6hV1A -->

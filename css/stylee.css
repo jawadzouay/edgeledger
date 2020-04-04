@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "arial";
+}
+
+/* utility  */
+.tp {
+  color: #93cb52;
+}
+
+/* navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  background-color: #333;
+  justify-content: space-between;
+  padding: 0.7rem;
+  align-items: center;
+}
+#navbar h1 {
+  color: white;
+}
+
+#navbar ul li a {
+  padding: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+}
+#navbar ul li a:hover {
+  border-radius: 4px;
+  background-color: #93cb52;
+}
+
+/* showcase */
+#showcase {
+  background: #333 url("../img/showcase.jpg") center center/cover;
+  height: 100vh;
+  color: white;
+}
+
+#showcase .showcase_content {
+  padding: 1rem;
+  display: flex;
+  height: 100%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 59px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#showcase .showcase_content h1 {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+#showcase .showcase_content p {
+  padding-bottom: 1rem;
+}
+
+#showcase .showcase_content .btn {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  background-color: #93cb52;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+}
+
+#showcase .showcase_content .btn:hover {
+  background-color: #77c91a;
+}
+
+/* what we do */
+#what {
+  color: #333;
+}
+
+#what .container {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+#what h2 {
+  padding: 1rem;
+  text-align: center;
+}
+
+#what .what {
+  padding: 2rem;
+  flex: 1;
+  text-align: center;
+}
+
+#what .container .what i {
+  background-color: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+#what .container .what h3 {
+  padding-bottom: 0.5rem;
+}
+
+/* Who We Are */
+#who .container {
+  height: 300px;
+  display: flex;
+}
+
+#who .container .who_content {
+  flex: 1;
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+}
+#who .container .who_content h3 {
+  padding: 1rem 0;
+}
+#who .container .who_img {
+  background: url("../img/people.jpg") no-repeat center center/cover;
+  width: 50%;
+  height: 300x;
+  flex: 1;
+}
+
+#who .container .who_content p {
+  padding: 0.5rem 0;
+}
+
+#who .container .who_content h4 {
+  padding: 1rem 0;
+}
+
+#who .container .who_content ul li {
+  list-style: none;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgb(80, 79, 79);
+}
+
+/* clients */
+#clients h2 {
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+#clients .container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+}
+
+#clients .container img {
+  width: 10%;
+  padding: 3rem;
+  flex: 1;
+}
+
+/* contact */
+#contact .container {
+  color: white;
+  display: flex;
+}
+#contcat .container .map {
+  background-color: #333;
+  width: 50%;
+  height: 100px;
+}
+#contact .container .contact_form {
+  color: ;
+  background-color: #93cb52;
+  width: 50%;
+}
+#contact .container .form_group {
+  padding: 1rem;
+}
+
+#contact .container .form_group label {
+  display: block;
+}
+
+#contact .container .form_group input,
+#contact .container .form_group textarea {
+  width: 100%;
+  padding: 0.6rem;
+}
+##contact .container .form_group .btn {
+  width: 100%;
+}
+#contact .container .contact_form button {
+  width: 90%;
+  border: none;
+  background-color: #333;
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+/*  #93cb52 * */
